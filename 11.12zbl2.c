@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("请输入一个正整数: ");
+    scanf("%d", &n);
+    
+    for(int j=1;j<=n;j++){
+    for(int i=1;i<=n-j;i++)
+	    printf(" ");
+    for(int i=1;i<=j;i++)
+	    printf("%d",i);
+    for(int i=j-1;i>0;i--)
+	    printf("%d",i);
+   printf("\n");}
+
+
+
+    
+    return 0;
+}
+
+
+
+
+
+
+
